@@ -50,13 +50,13 @@ top: -46px;
 }
 
 .form-header {
-    border-bottom: 1px solid #673;
+    border-bottom: 1px solid rgb(6, 70, 112);
     height: 45px;
 }
 
 .form-header p {
-    color: hotpink;
-    border-bottom: 2px solid hotpink;
+    color: rgb(99, 1, 155);
+    border-bottom: 2px solid rgb(99, 1, 155);
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -67,4 +67,16 @@ top: -46px;
 
 .form body {
     padding: 30px;
+}
+
+.titulo-form {
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.campo-obrigatorio {
+    color: darkslateblue;
 }

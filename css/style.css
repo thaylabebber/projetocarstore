@@ -64,3 +64,7 @@ top: -46px;
     height: 45px;
     list-style: 45px;
 }
+
+.form body {
+    padding: 30px;
+}

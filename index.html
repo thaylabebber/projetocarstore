@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,39 +10,46 @@
     <header class="cabecalho">
         <h3>cadastre seu veículo para vender mais rápido</h3>
     </header>
-    <div>
-        <div>
+    <div class="form-container">
+    <div class="form-header">
             <p>formulário</p>
         </div>
 
-        <div>
+    <div class="form-body">
             <h1>Venda fácil seu carro</h1>
             <p>Descreva as caracteristicas do seu carro e marque os opcionais que ele possui</p>
-            <form>
+            <form onsubmit="salvarCarros(event)">
+
                 <div>
                     <label for="title">Título de anúcio<span>*</span></label>
                     <input type="text" name="tittle" id="tittle" placeholder="Um título para anúnciar o seu carro">
                 </div>
+
                 <div>
                     <label for="preco">Preco<span>*</span></label>
                     <input type="number" name="Preco" id="preco" placeholder="Defina o preço">
                 </div>
+
                 <div>
                     <label for="descricao">Descrição </label>
                     <textarea name="descricao" id="descricao" placeholder="Faça a descrição de seu veículo"></textarea>
                 </div>
+
                 <div>
                     <label for="marca">Marca<span>*</span></label>
                     <input type="text" name="marca" id="marca" placeholder="Marca do veículo">
                 </div>
+
                 <div>
                     <label for="modelo">Título de anúcio<span>*</span></label>
                     <input type="text" name="modelo" id="modelo" placeholder="Modelo do veículo">
                 </div>
+
                 <div>
                     <label for="quilometragem">Quilometragem<span>*</span></label>
                     <input type="number" name="quilometragem" id="preco">
                 </div>
+
                 <div>
                     <label for="data de compra">Data de compra<span>*</span></label>
                     <input type="data" name="data de compra" id="data de compra">
@@ -56,6 +62,7 @@
                     <input type="radio" name="marcha" id="auto">
                     <label for="auto">Automático</label>
                 </div>
+
                 <div>
                     <p>Opicionais</p>
                     <ul>
@@ -84,18 +91,22 @@
                         <input type="checkbox" name="opcional[]" id="assistenciadepista" value="assistenciadepista">
                         <label for="assistenciadepista">Assistência de pista</label>
                     </li>
+
                     <li>
                         <input type="checkbox" name="opcional[]" id="partidasemchave" value="partidasemchave">
                         <label for="partidasemchave">Partida sem Chave</label>
                     </li>
+
                     <li>
                         <input type="checkbox" name="opcional[]" id="integracaocomcelular" value="integracaocomcelular">
                         <label for="integracaocomcelular">Integração com Celular</label>
                     </li>
+
                     <li>
                         <input type="checkbox" name="opcional[]" id="bancodecouro" value="bancodecouro">
                         <label for="bancodecouro">Banco de Couro</label>
                     </li>
+                    
                     </li>
             </form>
         </div>

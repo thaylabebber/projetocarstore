@@ -48,3 +48,19 @@ margin: 0 auto;
 position: relative;
 top: -46px;
 }
+
+.form-header {
+    border-bottom: 1px solid #673;
+    height: 45px;
+}
+
+.form-header p {
+    color: hotpink;
+    border-bottom: 2px solid hotpink;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45;
+    list-style: 45px;
+}

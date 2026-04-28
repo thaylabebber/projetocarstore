@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Store</title>
+<link rel="stylesheet" href="style.css" href="css/style.css">
 </head>
-
 <body>
     <header>
         <h3>cadastre seu veículo para vender mais rápido</h3>
@@ -50,13 +50,12 @@
                 </div>
 
                 <div>
-                    <p>Tipo de câmbio: <span></span> </p>
+                    <p>Tipo de câmbio: <span>*</span> </p>
                     <input type="rádio" name="marcha" id="manual">
                     <label for="manual">manual</label>
                     <input type="radio" name="marcha" id="auto">
                     <label for="auto">Automático</label>
                 </div>
-
                 <div>
                     <p>Opicionais</p>
                     <ul>
@@ -79,6 +78,7 @@
                         </li>
                     </ul>
                 </div>
+                <div>
                 <ul>
                     <li>
                         <input type="checkbox" name="opcional[]" id="assistenciadepista" value="assistenciadepista">
@@ -99,9 +99,16 @@
                     </li>
             </form>
         </div>
-    </div>
+    <div>
     <p>Fotos do carro <span>*</span></p>
-    <input type="file"> name="imagem" id="imagem" multiple accept="image/png, image/jpg">
+       <input type="file"> name="imagem" id="imagem" multiple accept="image/png, image/jpg">
     </div>
+<input type="submit"> value="Enviar">
+</form>
+<hr>
+<h2>Carros Cadastrados</h2>
+<div>
+    <script src="script/script.js"></script>
+</div>
 </body>
 </html>

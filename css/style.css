@@ -18,6 +18,25 @@ p, label {
 
 input {
     border: nome;
-    border-botton: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     padding: 10px 0;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
+width: 400px;
+
+}
+
+textarea {
+    padding: 10px 5px;
+}
+.cabecalho {
+    height: 160px;
+    padding: 20px;
+    background-color: paleturquoise;
+}
+
+.cabecalho h3{
+color: aqua;
+margin-top: 0;
 }

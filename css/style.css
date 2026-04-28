@@ -13,5 +13,11 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 p, label {
-    color:midnightblue
+    color:midnightblue;
+}
+
+input {
+    border: nome;
+    border-botton: 1px solid #ccc;
+    padding: 10px 0;
 }

@@ -80,3 +80,32 @@ top: -46px;
 .campo-obrigatorio {
     color: darkslateblue;
 }
+
+.CaixaInputs{
+    margin-bottom: 35px;
+}
+.block{
+}
+
+.CaixaOpcional {
+    display: inline-block;
+    margin: 0 30px 0 30px;
+
+}
+
+.CaixaOpcional li {
+    list-style: nome;
+    margin-bottom: 5px;
+
+}
+
+.btn-submit {
+    transition: 0.5s;
+}
+
+.btn-submit {
+    background-color: blue;
+color: aqua;
+    border-color: 2px solid transparent;
+
+}
